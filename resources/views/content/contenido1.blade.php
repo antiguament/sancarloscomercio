@@ -8,7 +8,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-auto max-w-7xl">
         <!-- Primer elemento -->
         <div class="rounded-xl shadow-md overflow-hidden relative">
-            <img src="{{ asset('images/casa.png') }}" alt="" class="w-full h-52 object-cover">
+            <img src="{{ asset('images/logoSabores1.png') }}" alt="" class="w-full h-52 object-contain">
             <a href="https://www.saboresdelrolo.com" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <button class="font-saintmartin text-orange-500 text-3xl px-8 py-3 rounded-lg bg-transparent border border-transparent shadow-md hover:text-white hover:border-orange-500 hover:shadow-lg hover:text-2xl">Saboresdelrolo.com</button>
             </a>
