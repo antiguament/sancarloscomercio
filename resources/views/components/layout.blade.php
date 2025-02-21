@@ -18,7 +18,15 @@
         document.documentElement.classList.remove('dark')
     }
 </script>
-
+<script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SaintMartin&display=swap" rel="stylesheet">
+    <style>
+        .font-saintmartin {
+            font-family: 'SaintMartin', sans-serif;
+        }
+    </style>
 </head>
 
 <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
